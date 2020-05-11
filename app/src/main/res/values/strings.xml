@@ -7,4 +7,11 @@
     <string name="dulceria">Dulceria</string>
     <string name="usuario">Usuario</string>
     <string name="peliculas">Peliculas</string>
+    <string name="descripcionitem">-2 GASEOSAS GRANDES\n-1 CRISPETAS GRANDES\n-2 PERROS CALIENTES \n-2 SNIKERS</string>
+    <string name="combo">COMBO ALEGRIA</string>
+    <string name="infoprice">Valor Combo $12.000 \n Cantidad disponible 30</string>
+    <string name="compra">Comprar</string>
+    <string name="botonBack">Inicio</string>
+    <string name="botonSave">Guardar QR</string>
+
 </resources>
