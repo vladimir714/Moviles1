@@ -30,12 +30,7 @@
             </intent-filter>
 
         </activity>
-
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of d0bb4dd... Mega comit :v
-        <activity android:name=".MainActivity" />
+<activity android:name=".MainActivity" />
     </application>
 
 </manifest>
