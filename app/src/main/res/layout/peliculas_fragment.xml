@@ -1,9 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="match_parent"
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#373131">
+    android:background="#373131"
+    >
+
+    <TextView
+        android:id="@+id/movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/peliculas"
+        android:textSize="40dp"
+        android:background="#EA5555"
+        android:textColor="#101010"
+
+android:gravity="center"
+        android:outlineAmbientShadowColor="#EA5555"
+
+        ></TextView>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="#FFFF"
+        android:layout_below="@+id/movie"
+
+        >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/cartelera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" En Cartelera" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/proximamente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proximamente" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tablayout">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="125dp"
+        android:layout_height="179dp"
+        android:src="@drawable/jojo"
+android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        />
+
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="125dp"
+            android:layout_height="179dp"
+            android:src="@drawable/bad"
+android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageButton1"
+            android:layout_marginRight="50dp"
+
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R1"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="125dp"
+            android:layout_height="179dp"
+            android:src="@drawable/sonic"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+           />
+
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="125dp"
+            android:layout_height="179dp"
+            android:src="@drawable/blood"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageButton3"
+            android:layout_marginRight="50dp"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/R2"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="125dp"
+            android:layout_height="179dp"
+            android:src="@drawable/toy"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="125dp"
+            android:layout_height="179dp"
+            android:src="@drawable/bosque"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageButton5"
+            android:layout_marginRight="50dp"
+
+            />
+
+    </RelativeLayout>
 
 
 </RelativeLayout>

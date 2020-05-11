@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/peliculas">
+    app:startDestination="@id/peliculas">
 
     <fragment
         android:id="@+id/dulceria"
@@ -18,5 +18,6 @@
     <fragment
         android:id="@+id/peliculas"
         android:name="com.example.moviles1.ui.Peliculas.Peliculas"
-        android:label="Peliculas" />
+        android:label="Peliculas"
+        tools:layout="@layout/peliculas_fragment" />
 </navigation>
