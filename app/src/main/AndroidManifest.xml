@@ -16,14 +16,19 @@
         <activity
             android:name=".barra_navegacion"
             android:label="@string/title_activity_barra_navegacion">
+
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".newPassword" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".LoginActicity"></activity>
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".MainActivity" />
     </application>
 
