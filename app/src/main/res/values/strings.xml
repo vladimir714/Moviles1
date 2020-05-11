@@ -24,9 +24,7 @@
     <string name="sexo">Sexo</string>
     <string name="fecha_nacimiento">Fecha de nacimiento</string>
     <string name="register">Registrarse</string>
-    <string name="descripcionitem">-2 GASEOSAS GRANDES\n-1 CRISPETAS GRANDES\n-2 PERROS CALIENTES \n-2 SNIKERS</string>
-    <string name="combo">COMBO ALEGRIA</string>
-    <string name="infoprice">Valor Combo $12.000 \n Cantidad disponible 30</string>
+
   <string name="descripcionitem">-2 GASEOSAS GRANDES\n-1 CRISPETAS GRANDES\n-2 PERROS CALIENTES \n-2 SNIKERS</string>
     <string name="combo">COMBO ALEGRIA</string>
     <string name="infoprice">Valor Combo $12.000 \n Cantidad disponible 30</string>
