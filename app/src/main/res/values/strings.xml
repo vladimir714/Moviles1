@@ -7,6 +7,7 @@
     <string name="dulceria">Dulceria</string>
     <string name="usuario">Usuario</string>
     <string name="peliculas">Peliculas</string>
+<<<<<<< HEAD
     <string name="inicio_sesion">Iniciar sesion</string>
     <string name="login">Continuar</string>
     <string name="forgot_password">Recuperar contraceña</string>
@@ -40,4 +41,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+=======
+>>>>>>> parent of d0bb4dd... Mega comit :v
 </resources>
