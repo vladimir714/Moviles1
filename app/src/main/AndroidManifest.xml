@@ -37,12 +37,10 @@
             </intent-filter>
 
         </activity>
-<<<<<<< HEAD
-<activity android:name=".MainActivity" />
-=======
 
-        <activity android:name=".MainActivity" />
->>>>>>> parent of f150a45... comit
+<activity android:name=".MainActivity" />
+
+
     </application>
 
 </manifest>
