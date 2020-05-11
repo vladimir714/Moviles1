@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:layout_margin=""
-    android:background="#262020"
-    tools:context=".SplashActivity">
+    android:layout_margin="0dp"
+    android:background="#262020">
 
 
     <TextView
@@ -55,34 +53,63 @@
         android:text="@string/descripcionitem"
         android:textColor="#ffffff"
         android:textSize="15dp" />
+
     <TextView
-        android:id="@+id/txtinfoprice"
+        android:id="@+id/exito"
+        android:text="Compra realizada con exito"
+        android:layout_below="@+id/imglogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="10dp"
-        android:gravity=""
-        android:layout_below="@+id/imglogo"
-        android:layout_marginBottom="20dp"
-        android:text="@string/infoprice"
-        android:textColor="#ffffff"
-        android:textSize="15dp" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#99E898" />
+
+    <ImageView
+        android:id="@+id/imgcodigo"
+        android:layout_width="223dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/exito"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:foreground="@drawable/QR"
+        android:gravity="center"
+        android:padding="0dp"
+        android:src="@drawable/QR"
+        tools:ignore="NotSibling" />
+
+
     <Button
+        android:id="@+id/botonBack"
         android:layout_width="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_height="30dp"
-        android:layout_below="@+id/txtinfoprice"
+        android:layout_below="@+id/imgcodigo"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="10dp"
-        android:background="#259B24"
-        android:text="@string/compra"
+        android:layout_marginTop="10dp"
+        android:background="#E36F6F"
+        android:text="@string/botonBack"
         android:onClick="onLogin"/>
 
-
-
-
+    <Button
+        android:id="@+id/botonSave"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imgcodigo"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/botonBack"
+        android:background="#5D71E1"
+        android:text="@string/botonSave"
+        android:onClick="onLogin"/>
 
 
 </RelativeLayout>

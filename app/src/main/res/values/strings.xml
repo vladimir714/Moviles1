@@ -27,4 +27,17 @@
     <string name="descripcionitem">-2 GASEOSAS GRANDES\n-1 CRISPETAS GRANDES\n-2 PERROS CALIENTES \n-2 SNIKERS</string>
     <string name="combo">COMBO ALEGRIA</string>
     <string name="infoprice">Valor Combo $12.000 \n Cantidad disponible 30</string>
+  <string name="descripcionitem">-2 GASEOSAS GRANDES\n-1 CRISPETAS GRANDES\n-2 PERROS CALIENTES \n-2 SNIKERS</string>
+    <string name="combo">COMBO ALEGRIA</string>
+    <string name="infoprice">Valor Combo $12.000 \n Cantidad disponible 30</string>
+    <string name="compra">Comprar</string>
+    <string name="botonBack">Inicio</string>
+    <string name="botonSave">Guardar QR</string>
+ <string name="title_activity_pelicula">pelicula</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_pestanas">pestanas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
