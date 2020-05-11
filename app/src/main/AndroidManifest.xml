@@ -12,7 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".reserva_dulceria_fragment"></activity>
+        <activity
+            android:name=".pestanas"
+            android:label="@string/title_activity_pestanas"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+
         <activity
             android:name=".barra_navegacion"
             android:label="@string/title_activity_barra_navegacion">
@@ -21,7 +28,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
         <activity android:name=".MainActivity" />
     </application>
 

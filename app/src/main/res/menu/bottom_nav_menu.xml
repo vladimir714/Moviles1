@@ -4,18 +4,18 @@
 
     <item
         android:id="@+id/peliculas"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_local_movies_black_24dp"
         android:title="@string/peliculas" />
 
 
     <item
         android:id="@+id/dulceria"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
         android:title="@string/dulceria" />
 
     <item
         android:id="@+id/usuario"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_usuario_black_24dp"
         android:title="@string/usuario" />
 
 </menu>
