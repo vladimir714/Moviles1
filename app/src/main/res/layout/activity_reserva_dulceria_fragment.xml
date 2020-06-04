@@ -33,7 +33,10 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-
+        android:foreground="@drawable/paquete"
+        android:gravity="center"
+        android:padding="0dp"
+        android:src="@drawable/paquete"
         android:gravity="center"
         android:padding="0dp"
         android:src="@drawable/combo"
@@ -78,6 +81,10 @@
         android:layout_marginRight="50dp"
         android:background="#FFFFFF"
 
+        android:foreground="@drawable/paqueteqr"
+        android:gravity="center"
+        android:padding="0dp"
+        android:src="@drawable/paqueteqr"
         android:gravity="center"
         android:padding="0dp"
         android:src="@drawable/qr"
