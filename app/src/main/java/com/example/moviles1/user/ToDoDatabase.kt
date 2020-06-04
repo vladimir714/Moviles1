@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.sqlite.db.SupportSQLiteOpenHelper
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.coroutineScope
+
 import kotlinx.coroutines.launch
 import java.security.AccessControlContext
 
@@ -25,13 +25,12 @@ public abstract class ToDoDatabase :RoomDatabase() {
             }
             synchronized(this){
                 val instance = Room.databaseBuilder(
-                    context.applicationContext,
-                    ToDoDatabase::class.java,
-                    "todo_database"
+                        context.applicationContext,
+                ToDoDatabase::class.java,
+                "todo_database"
                 ).addCallback(ToDoDatabaCallback(Scope)).build()
                 INSTANCE=instance
                 return instance
-                )
             }
         }
 
